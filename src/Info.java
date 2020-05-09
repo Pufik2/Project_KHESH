@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Info extends JFrame {
 	public Info() {
 		setTitle("Информация");
-		setBounds(100, 100, 400, 400);
+		setBounds(100, 100, 800, 800);
 		setResizable(false);
 		JPanel pane = new JPanel(null);
 		JLabel label1 = new JLabel("Курсовая работа");
@@ -35,7 +35,8 @@ public class Info extends JFrame {
 
 		JLabel label10 = new JLabel("Казанцев А.В.");
 		label10.setBounds(20, 220, 200, 30);
-
+		JLabel label11 = new JLabel("GitHub — крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки.");
+		label11.setBounds(100, 240, 800, 100);
 		pane.add(label1);
 		pane.add(label2);
 		pane.add(label3);
@@ -46,6 +47,7 @@ public class Info extends JFrame {
 		pane.add(label8);
 		pane.add(label9);
 		pane.add(label10);
+		pane.add(label11);
 		setContentPane(pane);
 		setVisible(true);
 	}
