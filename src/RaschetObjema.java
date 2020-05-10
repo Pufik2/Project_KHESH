@@ -32,6 +32,7 @@ class Graf extends JFrame {
 	JLabel lb7;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	JLabel lb14;
 =======
 	JLabel lb13;
@@ -43,6 +44,9 @@ class Graf extends JFrame {
 	JLabel lb11;
 	JLabel lb12;
 >>>>>>> Vetka_egorova
+=======
+	JLabel lb15;
+>>>>>>> SharafievaBranch
 	JTextArea ta;
 
 	public Graf() {
@@ -59,6 +63,7 @@ class Graf extends JFrame {
 		lb3.setBounds(30, 60, 700, 50);
 		lb4 = new JLabel("ФГБОУ ВО ");
 		lb4.setBounds(330, 10, 200, 20);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		lb14 = new JLabel("bahamen_1@mail.ru");
@@ -79,6 +84,10 @@ class Graf extends JFrame {
 		lb12 = new JLabel("egorva.lina@mail.ru ");
 		lb12.setBounds(200, 90, 700, 50);
 >>>>>>> Vetka_egorova
+=======
+		lb15 = new JLabel("kseniyasharafieva@yandex.ru");
+		lb15.setBounds(200,120,700,50);
+>>>>>>> SharafievaBranch
 		lb7 = new JLabel("Кнопка информации добавлена");
 		lb7.setBounds(200, 190, 200, 50);
 		lb5 = new JLabel("Уфимский государственный авиационный технический университет");
@@ -157,6 +166,7 @@ class Graf extends JFrame {
 		cont.add(lb7);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		cont.add(lb14);
 =======
 		cont.add(lb13);
@@ -168,6 +178,9 @@ class Graf extends JFrame {
 		cont.add(lb11);
 		cont.add(lb12);
 >>>>>>> Vetka_egorova
+=======
+		cont.add(lb15);
+>>>>>>> SharafievaBranch
 		cont.add(area2);
 		setContentPane(cont);
 //вот тут добавление ссылки
