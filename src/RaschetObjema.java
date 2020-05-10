@@ -31,14 +31,22 @@ class Graf extends JFrame {
 	JLabel lb6;
 	JLabel lb7;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	JLabel lb14;
 =======
 	JLabel lb13;
 >>>>>>> 5ea5129c28b3b2c8d17a8eccf33a669bd6387db6
+=======
+	JLabel lb8;
+	JLabel lb9;
+	JLabel lb10;
+	JLabel lb11;
+	JLabel lb12;
+>>>>>>> Vetka_egorova
 	JTextArea ta;
 
 	public Graf() {
-		setTitle("Лабораторная работа №4");
+		setTitle("Лабораторная работа №5");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setBounds(200, 100, 790, 430);
 		setResizable(false);
@@ -46,11 +54,12 @@ class Graf extends JFrame {
 		Container cont = getContentPane();
 		cont.setLayout(null);
 		lb2 = new JLabel("Номер группы: ПИ-220");
-		lb2.setBounds(30, 60, 300, 50);
-		lb3 = new JLabel("Фамилии: Крымгужин, Халиуллин, Егорова, Шарафиева");
-		lb3.setBounds(30, 80, 700, 50);
+		lb2.setBounds(30, 40, 300, 50);
+		lb3 = new JLabel("Фамилии: ");
+		lb3.setBounds(30, 60, 700, 50);
 		lb4 = new JLabel("ФГБОУ ВО ");
 		lb4.setBounds(330, 10, 200, 20);
+<<<<<<< HEAD
 <<<<<<< HEAD
 		lb14 = new JLabel("bahamen_1@mail.ru");
 		lb14.setBounds(200, 105, 700, 50);
@@ -58,6 +67,18 @@ class Graf extends JFrame {
 		lb13 = new JLabel("timur_krymguzhin@mail.ru");
 		lb13.setBounds(200, 75, 700, 50);
 >>>>>>> 5ea5129c28b3b2c8d17a8eccf33a669bd6387db6
+=======
+		lb8 = new JLabel("Крымгужин ");
+		lb8.setBounds(30, 75, 700, 50);
+		lb9 = new JLabel("Егорова ");
+		lb9.setBounds(30, 90, 700, 50);
+		lb10 = new JLabel("Халиуллин ");
+		lb10.setBounds(30, 105, 700, 50);
+		lb11 = new JLabel("Шарафиева ");
+		lb11.setBounds(30, 120, 700, 50);
+		lb12 = new JLabel("egorva.lina@mail.ru ");
+		lb12.setBounds(200, 90, 700, 50);
+>>>>>>> Vetka_egorova
 		lb7 = new JLabel("Кнопка информации добавлена");
 		lb7.setBounds(200, 190, 200, 50);
 		lb5 = new JLabel("Уфимский государственный авиационный технический университет");
@@ -67,7 +88,7 @@ class Graf extends JFrame {
 		JTextArea area2 = new JTextArea(
 				"информация по курсовой работе: 10 вариант (расчет количества символов в тексте)");
 
-		area2.setBounds(30, 120, 240, 50);
+		area2.setBounds(30, 160, 700, 20);
 		area2.setEditable(false);
 		area2.setFont(new Font("Times New Roman", Font.PLAIN, 14));
 		area2.setLineWrap(true);
@@ -135,10 +156,18 @@ class Graf extends JFrame {
 		cont.add(lb6);
 		cont.add(lb7);
 <<<<<<< HEAD
+<<<<<<< HEAD
 		cont.add(lb14);
 =======
 		cont.add(lb13);
 >>>>>>> 5ea5129c28b3b2c8d17a8eccf33a669bd6387db6
+=======
+		cont.add(lb8);
+		cont.add(lb9);
+		cont.add(lb10);
+		cont.add(lb11);
+		cont.add(lb12);
+>>>>>>> Vetka_egorova
 		cont.add(area2);
 		setContentPane(cont);
 //вот тут добавление ссылки
